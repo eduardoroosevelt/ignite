@@ -2,9 +2,9 @@ import { ThumbsUp, Trash } from 'phosphor-react';
 import { Avatar } from './Avatar';
 import styles from './Comment.module.css';
 
-export function Comment({content}){
+export function Comment({content, onDeleteComment}){
   function handleDeletComment(){
-    
+    onDeleteComment(content)
   }
 
   return( 
@@ -13,7 +13,7 @@ export function Comment({content}){
         hasBorder={false}
         src="https://github.com/eduardoroosevelt.png" 
       />
-      
+      content
       <div className={styles.commentBox}>
           <div className={styles.commentContent}>
             <header>
