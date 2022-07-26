@@ -1,0 +1,12 @@
+.container{
+  background-color:var(--gray-700);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height: 12.5rem;
+}
+
+.container img{
+  max-width:7.875rem;
+  max-height:3rem;
+}
