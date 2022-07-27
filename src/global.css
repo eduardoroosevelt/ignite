@@ -10,11 +10,12 @@
   --danger:#E25858;
 
   --purple: #8284FA;
-  --purpl-dark: #5E60CE;
+  --purple-dark: #5E60CE;
   --blue: #4EA8DE;
   --blue-dark:#1E6F9F;
 
 }
+
 
 *{
   margin: 0;
@@ -28,7 +29,7 @@ body{
 }
 
 body, input, textarea, button{
-  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size:  1rem;
 }

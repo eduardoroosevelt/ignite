@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:1rem;
+  width:100%;
+
+  border-top: 1px solid var(--gray-400);
+
+  padding:4rem 1.5rem;
+}
+
+.containerMessage{
+  max-width:18.75rem;
+}
+
+.container img{
+  height:3.5rem;
+  width:3.5rem;
+}
+
+.container p{
+  color:var(--gray-300);
+  text-align:center;
+  line-height:22.4px;
+}
+
+.container p span{
+  font-weight:700;
+}
+
